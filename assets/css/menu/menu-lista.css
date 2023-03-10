@@ -1,0 +1,4 @@
+/*estilizando espaçamento de itens*/
+.menu__lista {
+    display: flex;/*display fará um item ficar ao lado do outro*/
+}

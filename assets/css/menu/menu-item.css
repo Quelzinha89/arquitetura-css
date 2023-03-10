@@ -1,0 +1,9 @@
+/*estilizando lista de itens*/
+.menu__item {
+    list-style: none;/*list style none retira marcacao de lista*/
+}
+
+/*retirando espaçamento do ultimo item da lista*/
+.menu__item:last-child.menu__link {
+margin-right: 0;
+}

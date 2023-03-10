@@ -1,0 +1,24 @@
+.pessoa__imagem {
+
+    background-repeat: no-repeat;/*para n repetir a imagem*/
+    background-size: cover;/*ocupar tudo*/
+    background-position: center; /*fundo centralizado ao centro*/
+    border-radius: 100%; /*arrendondar as bordas*/
+    height: 300px;/*altura*/
+    margin: 0 auto; /*margem 0 e automático p que centraliza a imagem*/
+    width: 300px; /*largura*/
+    /*colocar em ordem alfabetica*/
+      
+}
+
+.pessoa__imagem--roberta {
+background-image: url('../../img/pessoas/roberta.jpg');/*abrir uma string (.. volta pasta assests .. volta pasta css)*/
+}
+
+.pessoa__imagem--marcela {
+    background-image: url('../../img/pessoas/marcela.jpg');
+}
+
+.pessoa__imagem--andreia {
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
